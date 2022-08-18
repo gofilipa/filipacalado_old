@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <!-- my style sheets -->
+   <link rel="stylesheet" href="./custom.scss">
+
+   <!-- fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,400;1,800&display=swap" rel="stylesheet"> 
+
+    <title>Filipa Calado</title>
+  </head>
+  <body>
+    <!-- start nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./cv.html">CV</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./projects.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./queer_tools.html">Queer Tools</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./text-analysis.html">Text Analysis</a>
+                <a class="dropdown-item" href="./tei.html">TEI Encoding</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./teaching.html">Teaching</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+        <!-- Start jumbotron -->
+        <div class="jumbotron">
+            <h1>Encoding Queer Erasure with TEI</h1>
+        </div>
+        <!---start container-->
+        <div class="container">
+            <div class="row">
+                <h1 class="text-danger"></h1>
+                <p>
+                    In the first scene of the novel, <em>The Picture of Dorian Gray</em> (1891), the painter Basil Hallward is at pains to explain to his friend Lord Henry Wotton why he cannot exhibit the portrait of the eponymous hero. Basil finally admits, "Where there is merely love, they would see something evil, where there is spectacular passion, they would suggest something vile" (Wilde, 1889–90, p. 21). This striking line, among many others that carry homoerotic innuendos, never appears in print. It is excised during Oscar Wilde's revision process, as part of a larger project of suppressing suggestions of homoeroticism between the three main characters of the story. 
+                </p>
+                <p>
+                    To interrogate Wilde’s revisionary practice, this chapter examines his treatment of the homoerotic elements across the first chapter of the manuscript of The Picture of Dorian Gray (1889-90). It uses a electronic editing tool, the Text Encoding Initiative (TEI, explained further below) to register and describe Wilde’s revisions. This project uses TEI "markup" not only to interrogate the nature of Wilde's revisions, but also the potential for technological tools to engage the text’s queer elements. In doing so, it endeavors to answer a question that plagues the emerging field of Queer Digital Humanities, or Queer DH--do we need to queer markup, or is markup already queerable? This question, posed by Julia Flanders, considers TEI's place between two current approaches in Queer DH: the first approach wants to disrupt formal systems by imagining alternative ones; and the second, by contrast maintains that queerness is built into computing—is inherent in computational logic. In attempt to cut between these debates, I identify one major constraint of the TEI—-that it works best with data which is discrete, rather than smooth data, like the homoeroticism obscured by Wilde's pen. In this project, I apply the rigid constraints of the TEI data structure toward marking up and analyzing this text's homoeroticism, which can be grouped into general themes including "intimacy," "beauty," "passion," and "fatality." The functionality of TEI as a tool that bounds and labels data into discrete elements allows me to explore the indeterminate boundaries of these queer themes in the text. This experiment in "queer encoding" brings researchers to embrace the act of marking and labelling textual data for the way it surfaces what elides and escapes their grasp. The strict nature of the TEI thus becomes a foundation for theorizing queer engagements with computational methods.
+                </p>
+                <p>The image below shows the TEI encoding (left) with a diplomatic transcription of the manuscript (right). <a href="./podg_1.xml">Click here to see a full rendering of the TEI</a>, or the <a href="./podg_1.html">diplomatic transcription</a> of the first chapter.
+                </p>
+                <img src="./img/wilde_diplo.png" height="500">
+            </div>
+        </div>
+
+
+        <!-- footer -->
+
+        <footer class="container">  
+            <hr>
+            <p>&copy; Filipa Calado 2020</p>
+            <p> Cover image by <a href="https://www.flickr.com/photos/92094013@N00">Xaostica</a></span> is licensed under <a href="null?ref=ccsearch&atype=html" style="margin-right: 5px;">CC PDM 1.0</a><a href="null?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-pdm_icon.svg" /></a></p>
+        </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

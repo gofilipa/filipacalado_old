@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <!-- my style sheets -->
+   <link rel="stylesheet" href="./custom.scss">
+
+   <!-- fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,400;1,800&display=swap" rel="stylesheet"> 
+
+    <title>Filipa Calado</title>
+  </head>
+  <body>
+    <!-- start nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./cv.html">CV</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./projects.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./queer_tools.html">Queer Tools</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./text-analysis.html">Text Analysis</a>
+                <a class="dropdown-item" href="./tei.html">TEI Encoding</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./teaching.html">Teaching</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+        <!-- Start jumbotron -->
+        <div class="jumbotron">
+            <h1>Quantifying Gender with Text Analysis</h1>
+        </div>
+        <!---start container-->
+        <div class="container">
+            <div class="row">
+                <h1 class="text-danger">Queer Distant Reading</h1>
+                <p>
+                    In recent years, practitioners of distant reading have been grappling with the problem of quantifying gender and sexuality, among other aspects of minority identity. My project intervenes in this debate by exploring one of the stickier aspects of distant reading--reproducibility. I trace a genealogy of reproducibility from distant reading’s inception in Franco Moretti’s call for a “falsifiable criticism” to more recent experiments in which researchers “reproduce” their assumptions about social categories in the results of their analysis. 
+                </p>    
+                <p>
+                    Rather than condemn the reproducible, this project unpacks its radical potential by reworking it to engage with Judith Butler’s concept of performativity. Bringing Butler’s foundational ideas about “performative citation” from Queer Theory to distant reading, I propose a methodology that achieves displacement through repetition, subversion through iteration, and resistance from within the flattening processes of quantification. This method illustrates how the iterative practice of analyzing text computationally can surface new textual structures and resignify elements of that text.
+                </p>
+                <p>
+                    I demonstrate this critical method with an analysis of Virginia Woolf's text, <em>Orlando: A Biography</em> (1928) to explore how the terms "man" and "woman" can be re-signified to multiply our already complex understanding of gender in that text. This method harnesses the reductions of reproducibility within text analytical methods in order to advance the study of queer identity in Queer Studies.
+                    
+                    
+                </p>
+                <p>The image below visualizes the words associated with "woman" in the text. <a href="./gender_in_o.html">Click here to see the full Python code for this text analysis</a>.
+                </p>
+                <img src="./img/plot.png" height="600">
+            </div>   
+           
+            
+            <div class="row">
+                <p style='color:white'>This is filler text, just to make some space here because I do not understand Bootstrap flexboxes</p>
+                <p>
+                    Susan Brown and Laura Mandell. “The Identity Issue,” <em>Cultural Analytics</em>, Feb 13, 2018.
+                </p>
+                <p>
+                    Moretti, Franco. "The Soul and the Harpy." <em>Signs Taken For Wonders: On the Sociology of Literary Forms</em>, trad. David Forgacs, New York, Verso, 1983. p. 21.
+                </p>
+                <p>
+                    Butler, Judith. Bodies That Matter. 1995. p. 18.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+
+        <footer class="container">  
+            <hr>
+            <p>&copy; Filipa Calado 2020</p>
+            <p> Cover image by <a href="https://www.flickr.com/photos/92094013@N00">Xaostica</a></span> is licensed under <a href="null?ref=ccsearch&atype=html" style="margin-right: 5px;">CC PDM 1.0</a><a href="null?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-pdm_icon.svg" /></a></p>
+        </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
